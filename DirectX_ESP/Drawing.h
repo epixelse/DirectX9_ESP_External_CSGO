@@ -1,0 +1,2 @@
+void Line(float x1, float y1, float x2, float y2, float width, bool antilias, DWORD color, LPDIRECT3DDEVICE9 d3d_devise);
+void DrawBox(float x, float y, float width, float height, float px, DWORD color, LPDIRECT3DDEVICE9 d3d_devise);

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Утилиты">
+      <UniqueIdentifier>{128e706d-e046-4da4-b644-67f1a959d75d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Hack.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drawing.h">
+      <Filter>Утилиты</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Утилиты</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Утилиты</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack.h">
+      <Filter>Утилиты</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Утилиты</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
